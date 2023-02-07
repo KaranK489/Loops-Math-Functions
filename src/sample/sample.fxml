@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="29.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleClick1" text="Piece 1" />
+      <TextField fx:id="txtInput1X" layoutX="167.0" layoutY="28.0" prefHeight="25.0" prefWidth="74.0" promptText="# Multiples" />
+      <Label fx:id="lblDisplay1" layoutX="29.0" layoutY="63.0" />
+      <TextField fx:id="txtInput1Y" layoutX="97.0" layoutY="28.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Button layoutX="29.0" layoutY="91.0" mnemonicParsing="false" onAction="#handleClick2" text="Piece 2" />
+      <TextField fx:id="txtInput2" layoutX="97.0" layoutY="91.0" prefHeight="25.0" prefWidth="115.0" promptText="String" />
+      <Label fx:id="lblDisplay2" layoutX="29.0" layoutY="125.0" />
+      <Button layoutX="29.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleClick4" text="Piece 4" />
+      <TextField fx:id="txtInput4Y" layoutX="167.0" layoutY="216.0" prefHeight="25.0" prefWidth="68.0" promptText="# of Rolls" />
+      <Label fx:id="lblDisplay41" layoutX="29.0" layoutY="251.0" />
+      <TextField fx:id="txtInput4X" layoutX="97.0" layoutY="216.0" prefHeight="25.0" prefWidth="61.0" promptText="# of Die" />
+      <Label fx:id="lblDisplay42" layoutX="29.0" layoutY="278.0" />
+      <Label fx:id="lblDisplay43" layoutX="128.0" layoutY="278.0" />
+      <Button layoutX="29.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleClick6" text="Piece 6" />
+      <TextField fx:id="txtInput6" layoutX="97.0" layoutY="361.0" prefHeight="25.0" prefWidth="60.0" promptText="Number" />
+      <Label fx:id="lblDisplay6" layoutX="29.0" layoutY="396.0" />
+      <Button layoutX="29.0" layoutY="152.0" mnemonicParsing="false" onAction="#handleClick3" text="Piece 3" />
+      <TextField fx:id="txtInput3" layoutX="97.0" layoutY="152.0" prefHeight="25.0" prefWidth="115.0" promptText="String" />
+      <Label fx:id="lblDisplay3" layoutX="29.0" layoutY="188.0" />
+      <Button layoutX="29.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleClick5" text="Piece 5" />
+      <TextField fx:id="txtInput5" layoutX="97.0" layoutY="302.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Label fx:id="lblDisplay5" layoutX="29.0" layoutY="338.0" />
+      <Button layoutX="29.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleClick7" text="Piece 7" />
+      <Label fx:id="lblDisplay7" layoutX="29.0" layoutY="462.0" />
+      <Button layoutX="29.0" layoutY="491.0" mnemonicParsing="false" onAction="#handleClick8" text="Piece 8" />
+      <TextField fx:id="txtInput8" layoutX="97.0" layoutY="491.0" prefHeight="25.0" prefWidth="60.0" promptText="Number" />
+      <Label fx:id="lblDisplay8" layoutX="29.0" layoutY="526.0" />
+      <Button layoutX="750.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleClick9" text="Piece 9" />
+      <TextField fx:id="txtInput91" layoutX="818.0" layoutY="27.0" prefHeight="25.0" prefWidth="74.0" promptText="Numerator" />
+      <Label fx:id="lblDisplay9" layoutX="750.0" layoutY="62.0" />
+      <TextField fx:id="txtInput92" layoutX="900.0" layoutY="27.0" prefHeight="25.0" prefWidth="88.0" promptText="Denominator" />
+      <Button layoutX="750.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleClick10" text="Piece 10" />
+      <Label fx:id="lblDisplay10" layoutX="750.0" layoutY="125.0" />
+      <Button layoutX="750.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleClick11" text="Piece 11" />
+      <Label fx:id="lblDisplay11" layoutX="750.0" layoutY="186.0" />
+      <TextField fx:id="txtInput11" layoutX="825.0" layoutY="151.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <TextField fx:id="txtInput10" layoutX="825.0" layoutY="90.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Button layoutX="750.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleClick12" text="Piece 12" />
+      <Label fx:id="lblDisplay12" layoutX="750.0" layoutY="250.0" />
+      <TextField fx:id="txtInput12" layoutX="825.0" layoutY="215.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Button layoutX="750.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleClick13" text="Piece 13" />
+      <Label fx:id="lblDisplay13" layoutX="750.0" layoutY="311.0" />
+      <TextField fx:id="txtInput13" layoutX="825.0" layoutY="276.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Button layoutX="750.0" layoutY="335.0" mnemonicParsing="false" onAction="#handleClick14" text="Piece 14" />
+      <Label fx:id="lblDisplay14" layoutX="750.0" layoutY="370.0" />
+      <TextField fx:id="txtInput14" layoutX="825.0" layoutY="335.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Button layoutX="750.0" layoutY="399.0" mnemonicParsing="false" onAction="#handleClick15" text="Piece 15" />
+      <Label fx:id="lblDisplay15" layoutX="750.0" layoutY="434.0" />
+      <TextField fx:id="txtInput15" layoutX="825.0" layoutY="399.0" prefHeight="25.0" prefWidth="61.0" promptText="Number" />
+      <Button layoutX="750.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleClick161" text="Piece 16 James Gregory Method" />
+      <Label fx:id="lblDisplay161" layoutX="750.0" layoutY="497.0" />
+      <Label fx:id="lblDisplay162" layoutX="750.0" layoutY="526.0" />
+      <Button layoutX="952.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleClick162" text="Piece 16 Nilakantha Method" />
+   </children>
+</AnchorPane>
